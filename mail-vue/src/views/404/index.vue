@@ -4,7 +4,7 @@ import router from "@/router/index.js";
 
 <template>
 <div class="box-404">
-  <el-empty class="empty" description="404错误, 找不到页面" >
+  <el-empty class="empty" description="404错误, 找不到页面，XM团队提醒您：多次访问错误将会被锁IP" >
     <el-button type="primary" @click="router.replace({name: 'layout'})">返回首页</el-button>
   </el-empty>
 </div>
