@@ -217,18 +217,19 @@
             </div>
             <div class="concerning-item">
               <span>交流:</span>
-              <el-button @click="jump('https://t.me/cloud_mail_tg')">
+              <el-button @click="jump('https://t.me/kikiweb_email')">
                 telegram
                 <template #icon>
                   <Icon icon="logos:telegram" width="30" height="30"/>
                 </template>
               </el-button>
-              <el-button @click="jump('https://github.com/LaziestRen/cloud-mail')">
-                github
+		    <el-button @click="jump('https://t.me/kikiweb_email')">
+                QQ
                 <template #icon>
-                  <Icon icon="codicon:github-inverted" width="22" height="22" />
+                  <Icon icon="https://wiki.connect.qq.com/wp-content/uploads/2013/10/01_qq_logo-1-768x369.png" width="30" height="30"/>
                 </template>
               </el-button>
+              
             </div>
           </div>
         </div>
